@@ -1,0 +1,38 @@
+
+#indexsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  @media (max-width: 630px) {
+    header h1{
+    font-size: 20px ;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    #indexsection h1{
+    font-size: 40px !important;
+    margin-left: 20px;
+    }
+  }
+ 
+  #indexsection h1{
+   
+    margin: 0;
+    font-size: 100px;
+    height: 150px;
+    width: 100%;
+    background-image: url("https://media.wired.co.uk/photos/606d9ea06a2b7484dab92d37/master/w_1600%2Cc_limit/wired-movie-industry.jpg");
+    background-repeat: repeat;
+  -webkit-background-clip:text;
+    background-clip: text;
+    color:transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+
